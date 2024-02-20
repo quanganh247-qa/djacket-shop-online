@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    
+    
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>Controller.CartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>productServlet</servlet-name>
+        <servlet-class>Controller.ProductServlet</servlet-class>
+    </servlet>
+
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>productServlet</servlet-name>-->
+<!--        <url-pattern>/loadProducts</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    -->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>productServlet</servlet-name>-->
+<!--        <url-pattern>/insertProduct</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+    <servlet-mapping>
+        <servlet-name>productServlet</servlet-name>
+        <url-pattern>/controllProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>productServlet</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>Controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/j_security_check</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PaymentServlet</servlet-name>
+        <servlet-class>Controller.PaymentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PaymentServlet</servlet-name>
+        <url-pattern>/otpForm</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OtpServlet</servlet-name>
+        <servlet-class>Controller.OtpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OtpServlet</servlet-name>
+        <url-pattern>/sendEmail</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ReportServlet</servlet-name>
+        <servlet-class>Controller.ReportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReportServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+</web-app>

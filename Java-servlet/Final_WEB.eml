@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_11" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="Maven: jakarta.platform:jakarta.jakartaee-web-api:10.0.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.servlet.jsp:jakarta.servlet.jsp-api:3.1.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.faces:jakarta.faces-api:4.0.1" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.ws.rs:jakarta.ws.rs-api:3.1.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.websocket:jakarta.websocket-api:2.1.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.websocket:jakarta.websocket-client-api:2.1.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.json:jakarta.json-api:2.1.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.json.bind:jakarta.json.bind-api:3.0.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.ejb:jakarta.ejb-api:4.0.1" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.transaction:jakarta.transaction-api:2.0.1" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.validation:jakarta.validation-api:3.0.2" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.interceptor:jakarta.interceptor-api:2.1.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.enterprise:jakarta.enterprise.lang-model:4.0.1" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.inject:jakarta.inject-api:2.0.1" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.authentication:jakarta.authentication-api:3.0.0" scope="PROVIDED"/>
+	<lib name="Maven: jakarta.security.enterprise:jakarta.security.enterprise-api:3.0.0" scope="PROVIDED"/>
+	<lib name="Maven: org.eclipse.persistence:org.eclipse.persistence.asm:9.4.0" scope="RUNTIME"/>
+	<lib name="Maven: org.junit.jupiter:junit-jupiter-api:5.9.2" scope="TEST"/>
+	<lib name="Maven: org.opentest4j:opentest4j:1.2.0" scope="TEST"/>
+	<lib name="Maven: org.junit.platform:junit-platform-commons:1.9.2" scope="TEST"/>
+	<lib name="Maven: org.apiguardian:apiguardian-api:1.1.2" scope="TEST"/>
+	<lib name="Maven: org.junit.jupiter:junit-jupiter-engine:5.9.2" scope="TEST"/>
+	<lib name="Maven: org.junit.platform:junit-platform-engine:1.9.2" scope="TEST"/>
+	<lib name="Maven: org.checkerframework:checker-qual:3.31.0" scope="RUNTIME"/>
+	<levels>
+		<level name="Maven: jakarta.platform:jakarta.jakartaee-web-api:10.0.0" value="project"/>
+		<level name="Maven: jakarta.servlet:jakarta.servlet-api:6.0.0" value="project"/>
+		<level name="Maven: jakarta.servlet.jsp:jakarta.servlet.jsp-api:3.1.0" value="project"/>
+		<level name="Maven: jakarta.el:jakarta.el-api:5.0.1" value="project"/>
+		<level name="Maven: jakarta.faces:jakarta.faces-api:4.0.1" value="project"/>
+		<level name="Maven: jakarta.ws.rs:jakarta.ws.rs-api:3.1.0" value="project"/>
+		<level name="Maven: jakarta.websocket:jakarta.websocket-api:2.1.0" value="project"/>
+		<level name="Maven: jakarta.websocket:jakarta.websocket-client-api:2.1.0" value="project"/>
+		<level name="Maven: jakarta.json:jakarta.json-api:2.1.0" value="project"/>
+		<level name="Maven: jakarta.json.bind:jakarta.json.bind-api:3.0.0" value="project"/>
+		<level name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" value="project"/>
+		<level name="Maven: jakarta.ejb:jakarta.ejb-api:4.0.1" value="project"/>
+		<level name="Maven: jakarta.transaction:jakarta.transaction-api:2.0.1" value="project"/>
+		<level name="Maven: jakarta.persistence:jakarta.persistence-api:3.1.0" value="project"/>
+		<level name="Maven: jakarta.validation:jakarta.validation-api:3.0.2" value="project"/>
+		<level name="Maven: jakarta.interceptor:jakarta.interceptor-api:2.1.0" value="project"/>
+		<level name="Maven: jakarta.enterprise:jakarta.enterprise.cdi-api:4.0.1" value="project"/>
+		<level name="Maven: jakarta.enterprise:jakarta.enterprise.lang-model:4.0.1" value="project"/>
+		<level name="Maven: jakarta.inject:jakarta.inject-api:2.0.1" value="project"/>
+		<level name="Maven: jakarta.authentication:jakarta.authentication-api:3.0.0" value="project"/>
+		<level name="Maven: jakarta.security.enterprise:jakarta.security.enterprise-api:3.0.0" value="project"/>
+		<level name="Maven: org.eclipse.persistence:org.eclipse.persistence.jpa:4.0.1" value="project"/>
+		<level name="Maven: org.eclipse.persistence:org.eclipse.persistence.asm:9.4.0" value="project"/>
+		<level name="Maven: org.eclipse.persistence:org.eclipse.persistence.core:4.0.1" value="project"/>
+		<level name="Maven: org.eclipse.persistence:org.eclipse.persistence.jpa.jpql:4.0.1" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-api:5.9.2" value="project"/>
+		<level name="Maven: org.opentest4j:opentest4j:1.2.0" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-commons:1.9.2" value="project"/>
+		<level name="Maven: org.apiguardian:apiguardian-api:1.1.2" value="project"/>
+		<level name="Maven: org.junit.jupiter:junit-jupiter-engine:5.9.2" value="project"/>
+		<level name="Maven: org.junit.platform:junit-platform-engine:1.9.2" value="project"/>
+		<level name="Maven: org.postgresql:postgresql:42.6.0" value="project"/>
+		<level name="Maven: org.checkerframework:checker-qual:3.31.0" value="project"/>
+		<level name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.0" value="project"/>
+		<level name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0" value="project"/>
+		<level name="Maven: commons-logging:commons-logging-api:1.1" value="project"/>
+	</levels>
+</component>
